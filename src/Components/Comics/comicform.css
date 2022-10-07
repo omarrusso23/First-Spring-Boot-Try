@@ -1,0 +1,87 @@
+.comicForm {
+  width: 100%;
+  background-color: transparent;
+  height: 100vh;
+  margin-top: 2.5rem;
+}
+
+.FormComic {
+  height: 100vh;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.textA {
+  width: 99%;
+  height: 50%;
+  overflow-y: auto;
+  border-radius: 12px;
+  border-style: none;
+}
+
+.categoryBtn1 {
+  position: absolute;
+  left: 10%;
+  margin-top: 50px;
+  height: 200px;
+  width: 200px;
+  color: white;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0),
+      rgba(8, 82, 156, 0.836)
+    ),
+    url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c1f87bd-1d0a-4d96-8226-0cfc612bc47b/d9z0o5b-37526d3f-60b6-44b9-96c3-7f0b673c580b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMWY4N2JkLTFkMGEtNGQ5Ni04MjI2LTBjZmM2MTJiYzQ3YlwvZDl6MG81Yi0zNzUyNmQzZi02MGI2LTQ0YjktOTZjMy03ZjBiNjczYzU4MGIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.yY--JigOPPXQtl9wkvD_YbKP4Ijx__6NyZYFA2hBAnI");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.categoryBtn2 {
+  position: absolute;
+  left: 40%;
+  margin-top: 50px;
+  height: 200px;
+  width: 200px;
+  color: white;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0),
+      rgba(8, 82, 156, 0.836)
+    ),
+    url("https://as1.ftcdn.net/v2/jpg/01/83/59/52/1000_F_183595288_0BwqOonF7VUuZFbUdZhr4Qh6MXYRSQlJ.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30vh;
+}
+
+.categoryBtn3 {
+  position: absolute;
+  left: 70%;
+  margin-top: 50px;
+  height: 200px;
+  width: 200px;
+  color: white;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0),
+      rgba(8, 82, 156, 0.836)
+    ),
+    url("https://st2.depositphotos.com/1024516/7360/v/950/depositphotos_73603819-stock-illustration-vector-pencil-concet-logo-design.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.categorytitulo {
+  font-size: 3.5rem;
+}
+
+.categorytitulo2 {
+  font-size: 2rem;
+}
+
+.categoryBtn {
+  width: 100%;
+}

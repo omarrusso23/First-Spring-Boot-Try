@@ -1,0 +1,155 @@
+.top {
+  position: absolute;
+  top: 74px;
+  width: 75%;
+  right: 2%;
+  height: 50vh;
+  padding-top: 10px;
+  color: white;
+}
+
+.bot {
+  position: absolute;
+  top: 511px;
+  width: 75%;
+  right: 2%;
+  height: 50vh;
+  padding-top: 10px;
+  color: white;
+}
+
+.litbtn1 {
+  position: absolute;
+  width: 437px;
+  height: 388px;
+  left: 21px;
+}
+
+.litbtn2 {
+  position: absolute;
+  width: 437px;
+  height: 388px;
+  left: 501px;
+}
+
+.litbtn3 {
+  position: absolute;
+  width: 437px;
+  height: 388px;
+  left: 981px;
+}
+
+.threads {
+  height: 100vh;
+  width: 80%;
+  float: right;
+  background-color: #4e54c8;
+}
+
+.titulo {
+  position: absolute;
+  top: 10px;
+  padding-left: 10px;
+  float: left;
+  font-size: 3.4rem;
+}
+
+button {
+  border-radius: 10px;
+  border: 0ch;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#libros {
+  color: white;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0),
+      rgba(8, 82, 156, 0.836)
+    ),
+    url("https://estaticos.muyhistoria.es/uploads/images/gallery/5ad871a95bafe8bd653c986a/libros.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#moviles {
+  color: white;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0),
+      rgba(8, 82, 156, 0.836)
+    ),
+    url("https://as01.epimg.net/meristation/imagenes/2021/03/18/betech/1616079963_525190_1616080111_noticia_normal_recorte1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80vh;
+}
+
+#pc {
+  color: white;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0),
+      rgba(8, 82, 156, 0.836)
+    ),
+    url("https://www.cyberpunk.net/build/images/case-contest/photo-1@1x-02a87fb2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50vh;
+}
+
+#comics {
+  color: white;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0),
+      rgba(8, 82, 156, 0.836)
+    ),
+    url("https://educacion30.b-cdn.net/wp-content/uploads/2021/10/794-min-978x652.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80vh;
+}
+
+#pelis {
+  color: white;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0),
+      rgba(8, 82, 156, 0.836)
+    ),
+    url("https://i.blogs.es/6449f7/espinof-peliculas-mas-esperadas-estrenos-cine-2018/840_560.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 63vh;
+}
+
+#series {
+  color: white;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0),
+      rgba(8, 82, 156, 0.836)
+    ),
+    url("https://www.latercera.com/resizer/gXOdyP_YUsjQ2MC6U9sUOv-gRxk=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/ONNUKFN3SNHK7F4KEH2BXHHHUA.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 63vh;
+}
+
+.threads {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  background-image: linear-gradient(
+    -45deg,
+    #9b9fe9 0%,
+    #6f74d8 25%,
+    #3138b9 51%,
+    #171e9c 100%
+  );
+}
